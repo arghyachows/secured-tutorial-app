@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "mongo-atlas"
+  },
+  "AccessToken": {
+    "dataSource": "mongo-atlas",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "mongo-atlas",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "mongo-atlas",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "mongo-atlas",
+    "public": false
+  },
+  "subscriber": {
+    "dataSource": "mongo-atlas",
+    "public": true
+  }
+}
