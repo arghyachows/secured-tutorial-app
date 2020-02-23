@@ -16,6 +16,12 @@
       "type": "string"
     }
   },
+  "mixins": {
+    "TimeStamp": {
+      "createdAt": "createdOn",
+      "updatedAt": "updatedOn"
+    }
+  },
   "validations": [],
   "relations": {},
   "acls": [
