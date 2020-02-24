@@ -47,5 +47,9 @@
   "school": {
     "dataSource": "mongo-atlas",
     "public": true
+  },
+  "courses": {
+    "dataSource": "mongo-atlas",
+    "public": true
   }
 }
