@@ -43,5 +43,9 @@
   "product": {
     "dataSource": "mongo-atlas",
     "public": true
+  },
+  "school": {
+    "dataSource": "mongo-atlas",
+    "public": true
   }
 }

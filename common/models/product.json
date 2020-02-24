@@ -5,6 +5,12 @@
   "options": {
     "validateUpsert": true
   },
+  "mixins": {
+    "TimeStamp": {
+      "createdAt": "createdOn",
+      "updatedAt": "updatedOn"
+    }
+  },
   "properties": {
     "title": {
       "type": "string"
@@ -14,12 +20,6 @@
     },
     "product": {
       "type": "string"
-    }
-  },
-  "mixins": {
-    "TimeStamp": {
-      "createdAt": "createdOn",
-      "updatedAt": "updatedOn"
     }
   },
   "validations": [],
