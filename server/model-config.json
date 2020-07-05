@@ -15,41 +15,41 @@
     ]
   },
   "User": {
-    "dataSource": "mongo-atlas"
+    "dataSource": "mongo"
   },
   "AccessToken": {
-    "dataSource": "mongo-atlas",
+    "dataSource": "mongo",
     "public": false
   },
   "ACL": {
-    "dataSource": "mongo-atlas",
+    "dataSource": "mongo",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "mongo-atlas",
+    "dataSource": "mongo",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "mongo-atlas",
+    "dataSource": "mongo",
     "public": false
   },
   "subscriber": {
-    "dataSource": "mongo-atlas",
+    "dataSource": "mongo",
     "public": true
   },
   "product": {
-    "dataSource": "mongo-atlas",
+    "dataSource": "mongo",
     "public": true
   },
   "school": {
-    "dataSource": "mongo-atlas",
+    "dataSource": "mongo",
     "public": true
   },
   "courses": {
-    "dataSource": "mongo-atlas",
+    "dataSource": "mongo",
     "public": true
   }
 }
