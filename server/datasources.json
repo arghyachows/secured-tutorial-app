@@ -6,7 +6,7 @@
   "mongo": {
     "host": "",
     "port": 0,
-    "url": "mongodb://0.0.0.0:27017",
+    "url": "mongodb://ec2-52-90-197-60.compute-1.amazonaws.com:27017",
     "database": "",
     "password": "",
     "name": "mongo",
