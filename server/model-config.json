@@ -10,7 +10,6 @@
       "loopback/common/mixins",
       "loopback/server/mixins",
       "../common/mixins",
-      "../node_modules/loopback-ds-timestamp-mixin",
       "./mixins"
     ]
   },
@@ -37,18 +36,6 @@
     "public": false
   },
   "subscriber": {
-    "dataSource": "mongo-atlas",
-    "public": true
-  },
-  "product": {
-    "dataSource": "mongo-atlas",
-    "public": true
-  },
-  "school": {
-    "dataSource": "mongo-atlas",
-    "public": true
-  },
-  "courses": {
     "dataSource": "mongo-atlas",
     "public": true
   }
