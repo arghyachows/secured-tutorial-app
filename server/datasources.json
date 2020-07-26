@@ -6,7 +6,7 @@
   "mongo-atlas": {
     "host": "",
     "port": 0,
-    "url": "mongodb://192.168.99.100:27017",
+    "url": "mongodb://192.168.99.100:27017/test",
     "database": "test",
     "password": "",
     "name": "mongo-atlas",
