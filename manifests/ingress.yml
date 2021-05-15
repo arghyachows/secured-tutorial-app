@@ -1,0 +1,17 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+    name: "craxcluster-f042"
+    labels:
+        app: "craxcluster-f042"
+    annotations:
+        kubernetes.io/ingress.class: addon-http-application-routing
+spec:
+    rules:
+        - host: craxclusterb11d-craxcluster-f042.10eba2291f9942739a0a.eastus.aksapp.io
+          http:
+            paths:
+            - path: /
+              backend:
+                serviceName: "craxcluster-f042"
+                servicePort: 3000
